@@ -1,0 +1,22 @@
+estrutura Nó:
+	v: Caractere
+	p: ^Nó
+	
+var x: ^Nó
+
+var a: ^No
+
+alocar(a)
+a^.v = 'A'
+
+alocar(x)
+
+x^.p = a
+
+var b: ^No
+alocar(b)
+b^.v = "B"
+
+a^.p = b
+
+...
