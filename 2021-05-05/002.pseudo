@@ -1,0 +1,16 @@
+estrutura A:
+    v ^No
+    z  No
+
+var a: ^No
+
+alocar(a)
+a^.Valor = 10
+
+A exemplo;
+
+No b;
+b.Valor = 50
+
+a.v = @b
+a.z = b
